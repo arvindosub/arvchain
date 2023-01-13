@@ -1,0 +1,1 @@
+geth --datadir "." --port 30305 --http --http.addr "xxx.xxx.xxx.xxx" --http.port 8551 --http.corsdomain "*" --http.api "personal,eth,net,web3,txpool,miner" --networkid 4224 --nodiscover console
