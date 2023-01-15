@@ -489,3 +489,71 @@
 01:36:26.636688 table@remove removed @99
 01:36:41.022338 db@close closing
 01:36:41.022865 db@close done T·526.1µs
+=============== Jan 16, 2023 (+08) ===============
+00:55:51.270726 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:55:51.279031 version@stat F·[0 1] S·106KiB[0B 106KiB] Sc·[0.00 0.00]
+00:55:51.279031 db@open opening
+00:55:51.279031 journal@recovery F·1
+00:55:51.281032 journal@recovery recovering @110
+00:55:51.284032 memdb@flush created L0@113 N·1 S·164B "loc..seq,v3518":"loc..seq,v3518"
+00:55:51.286031 version@stat F·[1 1] S·106KiB[164B 106KiB] Sc·[0.25 0.00]
+00:55:51.293033 db@janitor F·5 G·1
+00:55:51.293033 db@janitor removing table-109
+00:55:51.293033 db@open done T·14.0016ms
+00:55:51.532212 db@close closing
+00:55:51.532212 db@close done T·0s
+=============== Jan 16, 2023 (+08) ===============
+00:56:27.214647 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:56:27.215168 version@stat F·[1 1] S·106KiB[164B 106KiB] Sc·[0.25 0.00]
+00:56:27.215168 db@open opening
+00:56:27.215699 journal@recovery F·1
+00:56:27.217263 journal@recovery recovering @114
+00:56:27.223484 memdb@flush created L0@116 N·1 S·164B "loc..seq,v3520":"loc..seq,v3520"
+00:56:27.225682 version@stat F·[2 1] S·106KiB[328B 106KiB] Sc·[0.50 0.00]
+00:56:27.232953 db@janitor F·5 G·0
+00:56:27.232953 db@open done T·17.7856ms
+00:58:02.084750 db@close closing
+00:58:02.085187 db@close done T·436.3µs
+=============== Jan 16, 2023 (+08) ===============
+00:59:59.424030 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:59:59.424553 version@stat F·[2 1] S·106KiB[328B 106KiB] Sc·[0.50 0.00]
+00:59:59.424553 db@open opening
+00:59:59.424553 journal@recovery F·1
+00:59:59.426209 journal@recovery recovering @117
+00:59:59.428825 memdb@flush created L0@119 N·1 S·164B "loc..seq,v3522":"loc..seq,v3522"
+00:59:59.430916 version@stat F·[3 1] S·107KiB[492B 106KiB] Sc·[0.75 0.00]
+00:59:59.438555 db@janitor F·6 G·0
+00:59:59.438555 db@open done T·14.0026ms
+=============== Jan 16, 2023 (+08) ===============
+01:00:27.006082 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:00:27.006588 version@stat F·[3 1] S·107KiB[492B 106KiB] Sc·[0.75 0.00]
+01:00:27.006716 db@open opening
+01:00:27.006716 journal@recovery F·1
+01:00:27.008338 journal@recovery recovering @120
+01:00:27.011042 memdb@flush created L0@122 N·1 S·164B "loc..seq,v3524":"loc..seq,v3524"
+01:00:27.013207 version@stat F·[4 1] S·107KiB[656B 106KiB] Sc·[1.00 0.00]
+01:00:27.019501 db@janitor F·7 G·0
+01:00:27.019501 db@open done T·12.785ms
+01:00:27.019501 table@compaction L0·4 -> L1·1 S·107KiB Q·3525
+01:00:27.027014 table@build created L1@125 N·3054 S·106KiB "loc..seq,v3524":"version,v1"
+01:00:27.027014 version@stat F·[0 1] S·106KiB[0B 106KiB] Sc·[0.00 0.00]
+01:00:27.028015 table@compaction committed F-4 S-656B Ke·0 D·4 T·7.5147ms
+01:00:27.029013 table@remove removed @119
+01:00:27.029013 table@remove removed @116
+01:00:27.030015 table@remove removed @113
+01:00:27.030015 table@remove removed @112
+01:05:00.377425 db@close closing
+01:05:00.377986 db@close done T·560.6µs
+=============== Jan 16, 2023 (+08) ===============
+01:05:43.411984 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:05:43.412718 version@stat F·[0 1] S·106KiB[0B 106KiB] Sc·[0.00 0.00]
+01:05:43.412787 db@open opening
+01:05:43.412855 journal@recovery F·1
+01:05:43.413049 journal@recovery recovering @123
+01:05:43.416451 memdb@flush created L0@126 N·1 S·164B "loc..seq,v3526":"loc..seq,v3526"
+01:05:43.416976 version@stat F·[1 1] S·106KiB[164B 106KiB] Sc·[0.25 0.00]
+01:05:43.424563 db@janitor F·5 G·1
+01:05:43.424563 db@janitor removing table-122
+01:05:43.424563 db@open done T·11.7762ms
+01:41:50.764648 db@close closing
+01:41:50.764648 db@close done T·0s

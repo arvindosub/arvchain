@@ -1,0 +1,24 @@
+ArvChain Private Ethereum Blockchain Network
+
+Steps to Deploy
+- Ensure geth and its tools are all installed
+- Clone repo
+- Open terminal and navigate to cloned repo
+- Replace 'x.x.x.x' value for http.addr flag with your IP address
+- Ensure your PC's port 8551 is free and firewall rules allow incoming connections through it
+- Run ./startnode.cmd
+
+Private blockchain network will be successfully created!
+Execute commands like eth.accounts, eth.sendTransaction on the IPC to explore the network.
+You need to use miner.start() to mine and confirm any transactions. Use miner.stop() once done.
+
+-------------------------------
+
+Steps to Connect
+- Open MetaMask and create a new custom network.
+- For RPC URL: http://<your-ip>:8551
+- For Chain ID: 4224
+
+You should then be able to successfully connect to your private blockchain network from any other computer
+using your MetaMask wallet. You can then send eth from your private network accounts to your metamask 
+wallet accounts!
